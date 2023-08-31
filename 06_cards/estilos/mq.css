@@ -1,0 +1,55 @@
+@media screen and (min-width:270px) {
+    .container{
+        box-sizing: border-box;
+        display: grid; 
+        gap: 20px;
+        flex: 1 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+        "card-charmeleon"
+        "card-wartortle" 
+        "card-riolu" 
+        "card-ivysaur"
+    }
+
+    .container-master{
+        height: 100vh;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .container{
+        box-sizing: border-box;
+        display: grid; 
+        gap: 20px;
+        flex: 1 0 auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+        "card-charmeleon card-wartortle"
+        "card-riolu card-ivysaur" 
+    }
+    .container-master{
+        height: 100vh;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        box-sizing: border-box;
+        display: grid; 
+        gap: 20px;
+        flex: 1 0 auto;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+        grid-template-areas:
+        "card-charmeleon card-wartortle card-riolu card-ivysaur"
+    }
+    .container-master{
+        height: auto;
+        padding: 20px;
+    }
+}

@@ -55,10 +55,6 @@ body{
     font-size: 12px;
     height: 140px;
 }
-.soalegria{
-    display: flex;
-    flex-direction: column;
-}
 .nome{
     text-align: center;
     color: white;

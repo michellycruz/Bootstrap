@@ -16,7 +16,7 @@
         color: white;
     }
     img{
-      width: 180px;
+      max-width: 180px;
     }
     .footer{
       padding: 25px;
@@ -26,25 +26,26 @@
     }
 </style>
 <body class="bg-dark py-5">
-  <div class="container bg-primary col-sm-4">
+  <div class="container bg-primary col-md-6">
     <div class="p-4 text-center">
       <img src="imagens/logoOneBitDark.png" alt="logoOneBitDark">
     </div>
-    <div class="px-3">
+    <div class="px-4">
 
       <!--nome-->
-      <div>
-        <p>1 - Qual é o seu nome?</p>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Primeiro nome:</span>
-          <input type="text" class="form-control" placeholder="Digite aqui" aria-label="Username" aria-describedby="basic-addon1">
-        </div>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1">Segundo nome:</span>
-          <input type="text" class="form-control" placeholder="Digite aqui" aria-label="Username" aria-describedby="basic-addon1">
-        </div>
+      <div class="form">
+
         <div>
-      </div>
+          <p>1 - Qual é o seu nome?</p>
+          <div class="input-group mb-2">
+            <span class="input-group-text" id="basic-addon1">Primeiro nome:</span>
+            <input type="text" class="form-control" placeholder="Digite aqui" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Segundo nome:</span>
+            <input type="text" class="form-control" placeholder="Digite aqui" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+        </div>
 
         <!--gênero-->
         <div>
@@ -82,13 +83,34 @@
               <input class="form-check-input bg-secondary" type="checkbox" role="switch">
               <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento físico intenso</label>
             </div>
-          </div>
-      </div>    
-    
-      <p>4 - Quais você acha que são suas qualidades?</p>  
-          </div>  
         </div>
-  </div>
+
+          <!--suas qualidades-->
+          <div>
+            <p>4 - Quais você acha que são suas qualidades?</p>
+            <label class="checkbox-inline m-1">
+              <input type="checkbox" value=""> Proativo
+            </label>
+            <label class="checkbox-inline m-1">
+              <input type="checkbox" value=""> Resistente
+            </label>
+            <label class="checkbox-inline m-1">
+              <input type="checkbox" value=""> Não vomito fácil
+            </label>
+            <label class="checkbox-inline m-1">
+              <input type="checkbox" value=""> Não temo marcianos
+            </label>
+            <label class="checkbox-inline m-1">
+              <input type="checkbox" value=""> Já vi todos os star wars
+            </label>
+          </div>
+       </div>    
+      </div>  
+
+      <div class="p-4 text-center">
+        <button class="btn btn-outline-danger">Enviar</button>
+      </div>
+    </div>
 
    <div class="footer">
     <p>Feito por Michelly Cruz</p>

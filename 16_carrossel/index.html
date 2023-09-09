@@ -6,32 +6,70 @@
     <title>Carrossel de imagens</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
+<style>
+    #carouselExampleSlidesOnly{
+        width: 700px;
+    }
+    #carouselExampleInterval{
+        width: 400px;
+    }
+</style>
 <body class="bg-body-secondary">
     <div class="container">
         <h1>A beleza das praias</h1>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="container carousel-inner py-5">
             <div class="carousel-item active" data-bs-interval="3000">
-                <img src="imagens/pexels-asad-photo-maldives-3293148.jpg" class="d-block w-50" alt="...">
+                <img src="imagens/praia/pexels-asad-photo-maldives-3293148.jpg" class="d-block w-50" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="imagens/pexels-asad-photo-maldives-3601425.jpg" class="d-block w-50" alt="...">
+                <img src="imagens/praia/pexels-asad-photo-maldives-3601425.jpg" class="d-block w-50" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="imagens/pexels-darwis-alwan-1817048.jpg" class="d-block w-50" alt="...">
+                <img src="imagens/praia/pexels-darwis-alwan-1817048.jpg" class="d-block w-50" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="imagens/pexels-pok-rie-130879.jpg" class="d-block w-50" alt="...">
+                <img src="imagens/praia/pexels-pok-rie-130879.jpg" class="d-block w-50" alt="...">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="imagens/pexels-vladimir-kudinov-67384.jpg" class="d-block w-50" alt="...">
+                <img src="imagens/praia/pexels-vladimir-kudinov-67384.jpg" class="d-block w-50" alt="...">
             </div>
         </div>
     </div>
     <div class="content">
         <p>As praias são verdadeiros paraísos na Terra, onde a terra encontra o mar em uma dança eterna de beleza e tranquilidade. O som suave das ondas quebrando na costa, a brisa salgada que acaricia a pele e a vastidão do oceano que se estende até onde os olhos podem ver criam uma atmosfera única de serenidade e admiração. Nas praias, as preocupações cotidianas se dissipam sob o sol quente, enquanto os pés afundam na areia macia e os corações se enchem de alegria. Cada praia tem sua própria personalidade, seja com areias douradas ou rochosas, águas calmas ou agitadas, mas todas compartilham a magia de nos conectar com a natureza de maneira profunda e revigorante. É nessas margens que encontramos a paz e a renovação, e onde criamos memórias preciosas que duram para toda a vida.</p>
     </div>
+    <hr>
+    <h1>A beleza das montanhas</h1>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner py-5">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="imagens/montanhas/pexels-albert-white-361104.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="imagens/montanhas/pexels-eberhard-grossgasteiger-1287145.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/montanhas/pexels-joyston-judah-933054.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/montanhas/pexels-temo-berishvili-1574843.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next </span>
+        </button>
+    </div>
+    <div class="content">
+        <p>As montanhas, imponentes e majestosas, desafiam os céus e enriquecem nossa conexão com a natureza. Com picos que tocam as nuvens e vales profundos esculpidos pelo tempo, essas formações geológicas oferecem paisagens de tirar o fôlego e habitats únicos para uma variedade de vida selvagem. Além de sua beleza, as montanhas desempenham um papel importante na regulação climática, no abastecimento de água doce e na cultura humana, inspirando aventuras e reflexões ao longo da história.</p>
+    </div>
 </div>
+
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>

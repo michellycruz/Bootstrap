@@ -7,17 +7,25 @@
     <title>Avisos e Alerts</title>
 </head>
 <body>
+    <header class="text-center">
+        <h1>Exemplos de Alerts</h1>
+    </header>
+    <hr>
     <div class="container">
-
-    <!--alert com botões-->
+        <h3>Alerta simples</h3>
         <div class="alert alert-danger text-center">
             Página bloqueada
         </div>
+    </div>
+    <hr>
+    <div class="container">
+        <h3>Interativo com botões</h3>
+    <!--alert com botões-->
         <div id="liveAlertPlaceholder">Está gostando da OneBitCode? (Aqui o bootstrap fornece o JavaScript)</div>
         <button type="button" class="btn btn-primary" id="liveAlertBtn">Sim!</button>
         <button type="button" class="btn btn-danger" id="liveAlertBtnFalse">Não!</button>
     </div>  
-
+    <hr>
     <!--icones-->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
@@ -32,45 +40,27 @@
     </svg>
              
     <!--alerta com icon-->
-    <div class="alert alert-primary d-flex align-items-center" role="alert">
-        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
-        <div>
-            An example alert with an icon
+    <div class="container">
+        <h3>Com icon</h3>
+        <div class="alert alert-primary d-flex align-items-center" role="alert">
+            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+            <div>
+                An example alert with an icon
+            </div>
         </div>
     </div>
-
+    <hr>
     <!--alerta que some-->
-    <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <div class="container">
+        <h3>Que some</h3>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
     </div>
     
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
-
-    <script>
-        let alertPlaceholder = document.getElementById('liveAlertPlaceholder')
-        let alertTrigger = document.getElementById('liveAlertBtn')
-        let alertBtnFalse = document.getElementById('liveAlertBtnFalse')
-
-        function alert(message, type) {
-            let wrapper = document.createElement('div')
-            wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
-
-            alertPlaceholder.append(wrapper)
-        }
-
-        if (alertTrigger) {
-            alertTrigger.addEventListener('click', function () {
-                alert('Muito bom programador, você vai ter muito sucesso na carreira!', 'success')
-            })
-        } 
-        
-        if(alertBtnFalse){
-            alertBtnFalse.addEventListener('click', function(){
-                alert('Nos informe como podemos melhorar', 'danger')
-            })
-        }
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>

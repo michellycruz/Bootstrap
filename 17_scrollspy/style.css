@@ -5,3 +5,21 @@ body{
     background-color: black;
     color: white;
 }
+
+.scrollSpy{
+    height: 385px;
+    overflow: auto;
+    position: relative;
+    font-size: 25px;
+}
+
+h4{
+    font-size: 28px;      
+    color: rgb(0, 94, 86);
+    text-decoration: underline;
+}
+
+h5{
+    font-size: 26px;
+    color: rgb(0, 94, 86);
+}

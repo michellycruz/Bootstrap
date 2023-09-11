@@ -6,11 +6,17 @@ body{
     color: white;
 }
 
+.navbar{
+    border-radius: 8px;
+}
+
 .scrollSpy{
-    height: 385px;
+    height: 408px;
+    border-radius: 8px;
     overflow: auto;
     position: relative;
     font-size: 25px;
+    background-color: rgba(56, 98, 109, 0.327);
 }
 
 h4{

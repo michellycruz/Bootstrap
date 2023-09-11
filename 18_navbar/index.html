@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar com bootstrap</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                             <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                             </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid">
+        <div class="container align-content-center">
+            <h1>Baleias jubarte</h1>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner py-5">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="imagens/baleia1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="imagens/baleia2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/baleia3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/baleia4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next </span>
+                </button>
+            </div>
+        </div>
+        <div class="container">
+            <p>As baleias-jubarte, majestosas criaturas dos oceanos, têm um comportamento incrivelmente curioso durante suas migrações. Elas são conhecidas por "cantar" em melodias complexas que podem durar horas. O que torna isso ainda mais fascinante é que essas músicas são compostas por padrões distintos e evoluem ao longo do tempo. Ainda é um mistério por que elas cantam, mas acredita-se que seja parte do comportamento de acasalamento e comunicação entre as baleias. Essas canções subaquáticas são uma das maravilhas mais enigmáticas e encantadoras do reino marinho.</p>
+            <ul>
+                <li><strong>Concertos Submarinos</strong></li>
+                <p>Durante suas jornadas épicas, as baleias-jubarte nos presenteiam com verdadeiros concertos submarinos. Seus cantos, complexos e hipnotizantes, ecoam por quilômetros de água, envolvendo todos os que têm a sorte de testemunhá-los.</p>
+                <li><strong>Uma Sinfonia em Evolução</strong></li>
+                <p>O que torna esses cantos ainda mais notáveis é a constante evolução de suas melodias. A cada temporada de migração, as baleias-jubarte apresentam novos arranjos, como se estivessem compondo uma sinfonia única para cada geração.</p>
+                <li><strong>Comunicação Sutil</strong></li>
+                <p>Embora a razão exata para esses concertos permaneça um enigma, os cientistas acreditam que essas músicas podem desempenhar um papel crucial na comunicação entre as baleias. Talvez seja uma forma de transmitir mensagens sobre alimentos, perigos ou até mesmo sentimentos, entre membros da mesma espécie.</p>
+                <li><strong>Acasalamento no Compasso das Ondas</strong></li>
+                <p>Para alguns, essas canções são sinônimos de romance. Durante a temporada de acasalamento, os machos entoam seus cantos em uma tentativa de cortejar as fêmeas. A melodia envolvente parece ser uma linguagem de amor nas profundezas azuis.</p>
+                <li><strong>Um Legado de Encanto</strong></li>
+                <p>As canções das baleias-jubarte continuam a ecoar por gerações, um legado que transcende o tempo. Enquanto exploramos o reino marinho, essas músicas subaquáticas permanecem como um dos mistérios mais enternecedores e encantadores do nosso planeta.</p>
+            </ul>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

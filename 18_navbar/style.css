@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+
+#carouselExampleInterval{
+    max-width: 600px;
+}
+img{
+    border-radius: 10px;
+}

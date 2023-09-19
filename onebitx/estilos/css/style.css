@@ -27,6 +27,20 @@
   margin-right: 20px;
 }
 
+#button {
+  padding: 15px 35px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .container00.container01 {
   background-image: url(../../imagens/home/01.jpg);
 }
@@ -47,10 +61,6 @@
 .shortTitle {
   width: 550px;
   margin-bottom: -25px;
-}
-
-#button {
-  padding: 15px 35px;
 }
 
 /*# sourceMappingURL=style.css.map */

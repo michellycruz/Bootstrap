@@ -7,6 +7,9 @@
   font-size: 12px;
   font-weight: bold;
 }
+.header #navItem:hover {
+  color: #b9b9b9;
+}
 
 .container00 {
   min-height: 100vh;
@@ -24,7 +27,7 @@
 .logoPc {
   width: 240px;
   margin-left: -10px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 #button {

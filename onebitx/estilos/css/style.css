@@ -41,6 +41,18 @@
   align-items: center;
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: #b9b9b9;
+}
+
+.copyOBC {
+  color: #555252;
+}
+
 .container00.container01 {
   background-image: url(../../imagens/home/01.jpg);
 }

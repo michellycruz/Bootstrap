@@ -21,4 +21,27 @@
   margin-top: 5px;
 }
 
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
+}
+
+.container00.container01 {
+  background-image: url(../../imagens/home/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../imagens/home/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../../imagens/home/02.gif);
+}
+.container00.container04 {
+  background-image: url(../../imagens/home/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
 /*# sourceMappingURL=style.css.map */

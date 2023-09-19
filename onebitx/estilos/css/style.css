@@ -8,4 +8,17 @@
   font-weight: bold;
 }
 
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */

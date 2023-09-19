@@ -44,4 +44,13 @@
   padding-top: 200px;
 }
 
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+#button {
+  padding: 15px 35px;
+}
+
 /*# sourceMappingURL=style.css.map */

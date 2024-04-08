@@ -72,21 +72,6 @@
     margin-top: 15px;
   }
 }
-@media (max-width: 750px) {
-  .titlePadding {
-    padding-top: 120px;
-  }
-  .shortTitle, .mediumTitle {
-    width: auto;
-    font-size: 50px;
-  }
-}
-@media (max-width: 380px) {
-  .shortTitle, .mediumTitle {
-    width: auto;
-    font-size: 30px;
-  }
-}
 .container00.container01 {
   background-image: url(../../imagens/home/01.jpg);
 }
@@ -106,14 +91,29 @@
 
 .shortTitle {
   width: 550px;
-  margin-bottom: 25px;
+  margin-bottom: -25px;
 }
 
 .mediumTitle {
   width: 650px;
-  margin-bottom: 25px;
+  margin-bottom: -25px;
 }
 
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle, .mediumTitle {
+    width: auto;
+    font-size: 30px;
+  }
+}
 .container00.container05 {
   background-image: url(../../../imagens/falcon9/01.jpg);
 }

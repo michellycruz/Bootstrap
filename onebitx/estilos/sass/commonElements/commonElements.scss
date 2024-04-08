@@ -63,7 +63,6 @@
         width: 180px;
         margin-top: 15px;
     }
-
     .footer{
         font-size: 10px;
     }
@@ -73,23 +72,5 @@
     .logoPc{
         width: 150px;
         margin-top: 15px;
-    }
-}
-
-@media(max-width: 750px){
-    .titlePadding{
-        padding-top: 120px;
-    }
-    .shortTitle, .mediumTitle{
-        width: auto;
-        font-size: 50px;
-    }
-}
-
-@media(max-width: 380px){
-
-    .shortTitle, .mediumTitle{
-        width: auto;
-        font-size: 30px;
     }
 }
